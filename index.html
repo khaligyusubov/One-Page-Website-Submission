@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khalig Yusubov - Nature Photography</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Khalig Yusubov</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Capturing Nature's Finest Moments</h1>
+            <p>Professional Nature and Wildlife Photography</p>
+        </div>
+    </header>
+
+    <section id="gallery" class="gallery">
+        <h2>Featured Works</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item" data-img="https://images.unsplash.com/photo-1682687220742-aba19b51f36d">
+                <img src="https://images.unsplash.com/photo-1682687220742-aba19b51f36d?w=500" alt="Mountain landscape at sunrise">
+                <div class="gallery-item-caption">Mountain Sunrise</div>
+            </div>
+            <div class="gallery-item" data-img="https://images.unsplash.com/photo-1682687220198-88e9bdea9931">
+                <img src="https://images.unsplash.com/photo-1682687220198-88e9bdea9931?w=500" alt="Misty forest scene">
+                <div class="gallery-item-caption">Forest Mist</div>
+            </div>
+            <div class="gallery-item" data-img="https://images.unsplash.com/photo-1682687221175-7b5175c27ea0">
+                <img src="https://images.unsplash.com/photo-1682687221175-7b5175c27ea0?w=500" alt="Wildlife photography">
+                <div class="gallery-item-caption">Wildlife</div>
+            </div>
+            <div class="gallery-item" data-img="https://images.unsplash.com/photo-1682687220015-4c47233d8168">
+                <img src="https://images.unsplash.com/photo-1682687220015-4c47233d8168?w=500" alt="Waterfall in forest">
+                <div class="gallery-item-caption">Waterfall</div>
+            </div>
+            <div class="gallery-item" data-img="https://images.unsplash.com/photo-1682687220509-61b8a906ca19">
+                <img src="https://images.unsplash.com/photo-1682687220509-61b8a906ca19?w=500" alt="Dramatic sunset">
+                <div class="gallery-item-caption">Sunset</div>
+            </div>
+            <div class="gallery-item" data-img="https://images.unsplash.com/photo-1682687220067-dced0a5865c1">
+                <img src="https://images.unsplash.com/photo-1682687220067-dced0a5865c1?w=500" alt="Macro nature photography">
+                <div class="gallery-item-caption">Macro Nature</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>With over 15 years of experience in nature photography, I specialize in capturing the raw beauty of wildlife and landscapes. My work has been featured in National Geographic, BBC Wildlife, and various international nature magazines.</p>
+            <div class="achievements">
+                <div class="achievement">
+                    <h3>15+</h3>
+                    <p>Years Experience</p>
+                </div>
+                <div class="achievement">
+                    <h3>200+</h3>
+                    <p>Published Works</p>
+                </div>
+                <div class="achievement">
+                    <h3>50+</h3>
+                    <p>Awards</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#" target="_blank">Instagram</a>
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">Twitter</a>
+            </div>
+            <p>&copy; 2024 Khalig Yusubov. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div id="imageModal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="modalCaption"></div>
+        <button class="modal-prev">&lt;</button>
+        <button class="modal-next">&gt;</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
